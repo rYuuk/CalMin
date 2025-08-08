@@ -1,12 +1,14 @@
-# React + Vite
+# CalMin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calendar which lets you select days of month and export them as a csv file. I wanted something very simple for tracking my work days. 
 
-Currently, two official plugins are available:
+## Stack
+- React
+- Lucide icons
+- Utility CSS classes (compatible with Tailwind)
+- No date library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Disclaimer 
 
-## Expanding the ESLint configuration
+I am not a full stack developer and this is coded almost completely by GPT5.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
